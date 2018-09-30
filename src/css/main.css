@@ -1,0 +1,47 @@
+body {
+  font-family: 'Roboto', sans-serif; }
+
+img {
+  max-width: 100%; }
+
+.header {
+  padding: 15px 0;
+  background: #ffffff; }
+  .header-contacts {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    font-size: 22px;
+    color: #373737; }
+    .header-contacts__fon1 {
+      padding: 10px; }
+    .header-contacts__fon2 {
+      padding: 10px;
+      border-left: 1px solid gray; }
+
+button:focus {
+  outline: none; }
+
+.button {
+  font-family: 'Roboto';
+  font-size: 14px;
+  background: #ff9d00;
+  text-align: center;
+  border-radius: 5px;
+  border: none;
+  color: #ffffff;
+  padding: 15px 22px; }
+  .button:hover {
+    background: #ffad29;
+    border: none;
+    cursor: pointer; }
+
+.icon {
+  padding-right: 10px;
+  vertical-align: middle; }
+
+@media (min-width: 1200px) {
+  .container {
+    max-width: 968px;
+    margin: auto; } }
